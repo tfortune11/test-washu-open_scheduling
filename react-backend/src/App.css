@@ -1,0 +1,830 @@
+#openSchedulingFrame {
+  /*min-width: 700px !important;
+  min-height: 650px !important;*/
+  min-height: 663px;
+  border: 1px solid #ccc !important;
+}
+
+.backend-height {
+  margin-bottom: 1050px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.ReactVirtualized__Grid {
+  overflow: visible !important;
+  height: 100% !important;
+}
+
+.rst__rowTitle h2 {
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer .rst__node {
+  height: 350px !important;
+}
+
+/*#backendApp  .mce-tinymce {
+  width: 500px !important;
+}*/
+
+.rst__rowWrapper {
+  position: absolute;
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+
+.ReactVirtualized__Grid__innerScrollContainer .rst__node .rst__rowWrapper {
+  height: 350px;
+}
+
+.answer-two-col,
+.termination-two-col {
+  display: flex;
+  flex-direction: row;
+}
+
+.answer-two-col .answer-col2,
+.termination-two-col .term-col1 {
+  margin: 10px 30px 30px 30px;
+}
+
+.node-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.node-btns button:first-child {
+  margin-right: 20px;
+}
+
+input[type=radio] {
+  /*display: none;*/
+  margin: 10px;
+}
+
+input[type=radio]+label {
+  display: inline-block;
+  margin: -2px;
+  padding: 4px 12px;
+  background-color: #e7e7e7;
+  border-color: #ddd;
+}
+
+input[type="radio"].selected {
+  background-color: red; /* Change this to the desired color */
+}
+
+.rst__rowTitle h2 {
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer .rst__node {
+  height: 350px !important;
+}
+
+.rst__rowWrapper {
+  position: absolute;
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+
+.ReactVirtualized__Grid__innerScrollContainer .rst__node .rst__rowWrapper {
+  height: 350px;
+}
+
+#backendApp .tox .tox-tinymce,
+#backendApp .tox .tox-tinymce .tox-platform-touch {
+  height: 200px !important;
+}
+
+.ReactVirtualized__Grid {
+  overflow: visible !important;
+  height: 100% !important;
+}
+
+.rst__rowTitle h2 {
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer .rst__node {
+  height: 400px !important;
+}
+
+.rst__rowLabel {
+  width: 100%;
+}
+
+/*#backendApp .mce-tinymce {
+  width: 500px !important;
+}*/
+
+#backendApp .tox.tox-tinymce {
+  width: 100%;
+}
+
+.rst__rowWrapper {
+  position: absolute;
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+
+.ReactVirtualized__Grid__innerScrollContainer .rst__node .rst__rowWrapper {
+  height: 400px;
+}
+
+.answer-two-col,
+.termination-two-col {
+  display: flex;
+  flex-direction: row;
+}
+
+.answer-two-col .answer-col2,
+.termination-two-col .term-col1 {
+  margin: 10px 30px 30px 30px;
+}
+
+.node-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.node-btns button:first-child {
+  margin-right: 20px;
+}
+
+input[type=radio] {
+  /*display: none;*/
+  margin: 10px;
+}
+
+input[type=radio]+label {
+  display: inline-block;
+  margin: -2px;
+  padding: 4px 12px;
+  background-color: #e7e7e7;
+  border-color: #ddd;
+}
+
+input[type="radio"].selected {
+  background-color: red; /* Change this to the desired color */
+}
+
+#backendApp .mce-edit-area iframe {
+  height: 80px !important;
+}
+
+.rst__rowTitle h2 {
+  margin-top: 10px;
+}
+
+.Modal {
+  background: white;
+  color: #555;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.45;
+}
+
+.preview-question {
+  font-size: 14px;
+  color: #555555;
+}
+
+.Modal .page-content {
+  position: fixed;
+  left: calc(30% - 100px);
+  top: 50%;
+  transform: translate(0%, -50%);
+  background: white;
+  width:60%;
+  min-height: 60%;
+  padding: 30px;
+  border: 1px solid grey;
+  border-radius: 25px;
+}
+
+.close-modal {
+  top: 10%;
+  right: 5%;
+  position: fixed;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.hide-termination {
+  display: none;
+}
+
+.rst__rowContents.rst__rowContentsDragDisabled {
+  min-width: 950px !important;
+  }
+
+.rst__node:not(:first-child) {
+      top: 350px !important;
+      position: relative !important;
+  }
+
+  .question {
+      margin: 15px;
+  }
+
+  .question p,
+  .termination p {
+      font-size: 18px;
+  }
+
+  .answer {
+      margin: 15px;
+  }
+
+  .termination {
+      max-width: 250px;
+  }
+  .start-block-container .start-block-forms{
+      display: flex;
+      flex-direction: row;
+  }
+  .start-block-forms .start-col1, .start-block-forms .start-col2{
+      width:45%;
+      display: flex;
+      flex-direction: column;
+  }
+  .start-block-forms .start-col1{
+      margin-right:auto;
+  }
+  .start-block-forms label{
+      width:100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-bottom:10px;
+      font-size: 14px;
+  }
+  .start-block-forms label input{
+      margin-left: auto;
+  }
+
+  .image-preview {
+    max-width: 300px;
+  }
+
+  #backendApp .tox-tinymce{
+      margin-left:30px;
+      width:300px;
+      /*height: 130px !important;*/
+  }
+  #backendApp .question-node .tox-tinymce{
+    margin-left:30px;
+    width:800px !important;
+}
+  .start-block-forms label .start-form-btn-container{
+      display: flex;
+      flex-direction: column;
+  }
+  .start-block-forms label input:first-of-type{
+      margin-bottom:10px;
+  }
+  .start-block-forms label span{
+      margin-right:auto;
+  }
+  
+  .edit-modal{
+      position:absolute;
+      left:160px;
+      top:30px;
+      padding:30px 50px 30px;
+  }
+  
+  #backendApp .ReactModal__Overlay{
+      z-index: 999;
+      overflow:scroll;
+  }
+  #backendApp .edit-modal .tox-tinymce{
+      height: 120px !important;
+  }
+.App {
+  text-align: center;
+}
+#backendApp a{
+  color:#a51417!important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.get-data-btn {
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
+
+.get-data-btn button {
+  padding: 10px 20px;
+}
+
+.api-data-section {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+.insert-data-input input {
+  margin-right: 15px;
+  padding: 10px 20px;
+}
+
+.insert-data-input button {
+  padding: 10px 20px;
+}
+
+.api-table,
+.api-table td,
+.api-table th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.api-table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.api-table th,
+.api-table td {
+  padding: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+.rst__rowWrapper {
+  height: 100px;
+}
+
+.rst__rowTitle h2 {
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+/*.ReactVirtualized__Grid__innerScrollContainer .rst__node {
+  height: 400px !important;
+}*/
+
+.rst__rowTitle h2 {
+  margin-top: 10px;
+}
+
+/*.rst__rowWrapper {
+  position: absolute;
+  top: 50%;
+  transform: translate(0px, -50%);
+}*/
+
+
+
+  
+
+
+.hide-termination {
+  display: none;
+}
+
+.Modal .page-content {
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.stay {
+  position: fixed;
+  top: 220px;
+  left: 180px;
+}
+
+.margin-top-10
+{
+  margin-top: 10px;
+}
+
+.margin-right-10
+{
+  margin-right: 10px;
+}
+
+.margin-bottom-10
+{
+  margin-bottom: 10px;
+}
+
+.margin-left-10
+{
+  margin-left: 10px;
+}
+
+.margin-top-25
+{
+  margin-top: 25px;
+}
+
+.margin-right-25
+{
+  margin-right: 25px;
+}
+
+.margin-bottom-25
+{
+  margin-bottom: 25px;
+}
+
+.margin-left-25
+{
+  margin-left: 25px;
+}
+
+.topTitle {
+  max-width: 580px;
+  background-color: #F5F5F5;
+  padding: 10px 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.termination {
+  max-width: 580px;
+  background-color: #F5F5F5;
+  padding: 25px;
+}
+
+.btn-link
+{
+  color: #A51417 !important;
+}
+
+.btn-primary:disabled {
+  color: #a51417 !important;
+  background-color: #fff !important;
+  border: 2px solid #a51417 !important;
+}
+
+.treeHeader {
+  font-size: 2.5em;
+  margin-bottom: 0.5em !important;
+}
+
+.treeSubHeader {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em !important;
+}
+
+.answerTextLeft {
+  margin-left: 80px;
+}
+
+.answerLeft {
+  width: 225px;
+  display: inline-block;
+  margin-right: 50px;
+}
+.question-node-input input{
+  margin-top:15px;
+  margin-left:30px;
+}
+.ReactVirtualized__Grid__innerScrollContainer .rst__node{
+  height: 510px!important;
+ 
+}
+.ReactVirtualized__Grid__innerScrollContainer .rst__node:first-of-type{
+  z-index: 99;
+ 
+}
+.Modal ul{
+   list-style:disc;
+}
+@media only screen and (max-width: 960px) {
+  .stay {
+    position: fixed;
+    top: 220px;
+    left: 70px;
+  }
+}
+
+
+/**************************/
+
+
+.rst__virtualScrollOverride {
+  overflow: visible !important;
+}
+
+/**************************/
+
+
+.sb-preview 
+{
+  width: 600px;
+  border: 1px solid #000;
+}
+
+.sbTitle 
+{
+  width: 100%;
+  background-color: #DCDCDC;
+  padding: 5px;
+}
+
+.sbTitle h2 
+{
+  text-align: center;
+  font-weight: bold;
+}
+
+.sb-preview-cols 
+{
+  margin-top: 20px;
+}
+
+.sb-preview-full
+{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.sb-preview-col 
+{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.sb-preview-ind .sb-preview-full {
+  display: flex;
+}
+
+.sb-preview-ind .img-col {
+  display: none;
+}
+
+/*
+.sb-preview-ind .img-col {
+  flex: 0 33%;
+  max-width: 350px;
+}
+
+.sb-preview-ind .img-col img {
+  width: 100%;
+}
+
+.sb-preview-ind .img-col {
+  flex: 0 33%;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.sb-preview-ind .img-col img {
+  margin-bottom: 20px;
+}
+ 
+.sb-preview-ind .img-col .sb-preview-col {
+  width: 100%;
+}
+
+*/
+
+.sb-preview-ind .bottom {
+  text-align: left;
+  width: fit-content;
+  margin-top: 15px;
+}
+
+.sb-preview-ind .sb-content p {
+  text-align: left;
+}
+
+.sb-preview-ind .right {
+  flex: 0 64%;
+}
+
+.sb-preview-ind .right h2.title {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.border-middle 
+{
+  border-right: 1px solid #DCDCDC;
+}
+
+.decision-tree-content .btn-round 
+{
+  /*border-radius: 20px;
+  width: 75% !important;
+  margin: 15px 0;*/
+
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 0.5em 1.25em;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.decision-tree-content .btn-wrapper a.btn-round 
+{
+  border: 1px solid #a51417;
+    background-color: #a51417;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1em;
+    margin: 15px 0;
+}
+
+.btn-wrapper {
+  margin: 15px 0;
+}
+
+.sb-bottom-center 
+{
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+.sb-preview-ind .bottom {
+  text-align: center;
+  width: 100%;
+}
+
+
+
+button.btn.btn-danger.btn-round {
+  width: 100%;
+}
+
+.btn-round 
+{
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.sb-content 
+{
+  margin-top: 15px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.hide 
+{
+  display: none;
+}
+
+.size-10px {
+  font-size: 10px;
+}
+
+.size-11px {
+  font-size: 11px;
+}
+
+.size-12px {
+  font-size: 12px;
+}
+
+.size-13px {
+  font-size: 13px;
+}
+
+.size-14px {
+  font-size: 14px;
+}
+
+.size-15px {
+  font-size: 15px;
+}
+
+.size-16px {
+  font-size: 16px;
+}
+
+.size-17px {
+  font-size: 17px;
+}
+
+.size-18px {
+  font-size: 18px;
+}
+
+.size-19px {
+  font-size: 19px;
+}
+
+.size-20px {
+  font-size: 20px;
+}
+
+.size-21px {
+  font-size: 21px;
+}
+
+.size-22px {
+  font-size: 22px;
+}
+
+.size-23px {
+  font-size: 23px;
+}
+
+.size-24px {
+  font-size: 24px;
+}
+
+.size-25px {
+  font-size: 25px;
+}
+
+.size-26px {
+  font-size: 26px;
+}
+
+.size-27px {
+  font-size: 27px;
+}
+
+.size-28px {
+  font-size: 28px;
+}
+
+.size-29px {
+  font-size: 29px;
+}
+
+.size-30px {
+  font-size: 30px;
+}
